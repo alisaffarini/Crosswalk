@@ -72,7 +72,7 @@ def main():
     model = load_model('moreefficientweights.pth')
 
     # List of test images
-    test_images = ['trial.jpg']
+    test_images = ['image4.jpg']
     for image_path in test_images:
         # Prepare the image
         image = prepare_image(image_path)
